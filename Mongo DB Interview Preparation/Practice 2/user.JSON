@@ -1,0 +1,30 @@
+[
+    {
+      "_id": "507f1f77bcf86cd799439011",
+      "name": "John Doe",
+      "email": "john.doe@example.com",
+      "age": 30,
+      "address": {
+        "city": "New York",
+        "zip": "10001"
+      },
+      "orders": [
+        "607f1f77bcf86cd799439021",
+        "607f1f77bcf86cd799439022"
+      ]
+    },
+    {
+      "_id": "507f1f77bcf86cd799439012",
+      "name": "Jane Smith",
+      "email": "jane.smith@example.com",
+      "age": 25,
+      "address": {
+        "city": "Los Angeles",
+        "zip": "90001"
+      },
+      "orders": [
+        "607f1f77bcf86cd799439023"
+      ]
+    }
+  ]
+  

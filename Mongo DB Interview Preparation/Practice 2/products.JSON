@@ -1,0 +1,23 @@
+[
+  {
+    "_id": "607f1f77bcf86cd799439031",
+    "name": "Laptop",
+    "price": 1200,
+    "category": "Electronics",
+    "stock": 50
+  },
+  {
+    "_id": "607f1f77bcf86cd799439032",
+    "name": "Smartphone",
+    "price": 800,
+    "category": "Electronics",
+    "stock": 100
+  },
+  {
+    "_id": "607f1f77bcf86cd799439033",
+    "name": "Headphones",
+    "price": 150,
+    "category": "Accessories",
+    "stock": 200
+  }
+]

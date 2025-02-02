@@ -1,0 +1,45 @@
+1) What is MongoDB?
+
+     MongoDB is a NoSQL database that stores data in flexible, JSON-like documents (BSON format).
+     
+     It is document-oriented, meaning data is stored in collections of documents instead of tables with rows and columns.
+     
+     MongoDB is schema-less, allowing you to store data without a predefined structure.
+
+     ✅ Key Features:
+
+        Schema-less: No fixed structure; you can store different fields in different documents.
+        Scalability: Supports horizontal scaling using sharding.
+        High Availability: Uses replication for fault tolerance.
+        Rich Query Language: Supports powerful queries with filtering, aggregation, and indexing.
+
+2) NoSQL vs. SQL Databases
+
+SQL Databases:
+
+   Structured data stored in tables with rows and columns.
+   Fixed schema (predefined structure).
+   Examples: MySQL, PostgreSQL, Oracle.
+
+NoSQL Databases:
+
+   Unstructured or semi-structured data stored in collections of documents.
+   Dynamic schema (flexible structure).
+   Examples: MongoDB, Cassandra, Redis.
+
+Key Differences:
+
+   Scalability: NoSQL databases are highly scalable for large datasets.
+   Flexibility: NoSQL databases allow for flexible schema design.
+   Transactions: SQL databases support ACID transactions, while NoSQL databases like MongoDB support multi-document transactions (since v4.0).
+
+3) Advantages & Use Cases of MongoDB
+
+Advantages:
+
+Flexibility: Schema-less design allows for easy changes to the data model.
+Scalability: Horizontal scaling with sharding.
+Performance: High performance for read/write operations due to indexing and in-memory storage.
+Rich Query Language: Supports complex queries, aggregation, and indexing.
+High Availability: Built-in replication and failover.
+

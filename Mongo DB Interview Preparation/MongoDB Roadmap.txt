@@ -1,0 +1,160 @@
+📌 1. Basics of MongoDB
+────────────────────────
+
+✅ Introduction to MongoDB
+
+     - What is MongoDB?
+     - NoSQL vs. SQL databases
+     - Advantages & Use Cases of MongoDB
+     - Installation & Setup of MongoDB
+
+✅ MongoDB Basics
+
+     - JSON vs. BSON
+     - Data Types in MongoDB (String, Number, Boolean, Date, Array, ObjectId, etc.)
+     - Understanding Collections and Documents
+     - Schema-less Nature of MongoDB
+
+✅ CRUD Operations (Must-Know for Beginners)
+
+     - insertOne(), insertMany()
+     - find(), findOne() with filters
+     - updateOne(), updateMany(), $set, $unset, $inc, $push, $pull
+     - deleteOne(), deleteMany()
+
+✅ Querying in MongoDB
+
+     - Filtering using operators ($eq, $ne, $gt, $lt, $in, $nin, etc.)
+     - Sorting (sort()), Projection (fields selection), Pagination (limit(), skip())
+     - Regular Expressions in Queries
+
+✅ Indexing (Very Important)
+
+     - What is Indexing?
+     - Types of Indexes (Single Field, Compound, Multikey, Text, Geospatial)
+     - How Indexing Improves Query Performance
+     - Checking Indexes (getIndexes())
+
+📌 2. Intermediate MongoDB Concepts
+────────────────────────────────────
+
+✅ Aggregation Framework (Must-Know for Interviews)
+
+     - Aggregation Pipeline ($match, $group, $sort, $project, $limit, $skip)
+     - Operators ($sum, $avg, $min, $max, $push, $addToSet)
+     - $lookup (Joining Collections in MongoDB)
+     - $unwind (Working with Arrays)
+
+✅ Schema Design and Relationships
+
+     - Embedding vs. Referencing
+     - One-to-One, One-to-Many, Many-to-Many Relationships
+     - Best Practices for Schema Design
+
+✅ MongoDB Transactions
+
+     - ACID Transactions in MongoDB
+     - startSession(), withTransaction(), commitTransaction(), abortTransaction()
+
+✅ MongoDB Security (Important for Advanced Interviews)
+
+     - Authentication & Authorization
+     - Role-Based Access Control (RBAC)
+     - Data Encryption
+     - Backup & Restore Strategies
+
+✅ Replication in MongoDB
+
+     - What is Replication?
+     - Replica Set Architecture
+     - Primary & Secondary Nodes
+     - Read and Write Concern
+
+✅ Sharding in MongoDB
+
+     - What is Sharding?
+     - Why is Sharding Required?
+     - Shard Keys & Best Practices
+     - Configuring Sharded Clusters
+
+📌 3. Advanced MongoDB Concepts (For High-Level Interviews)
+────────────────────────────────────────────────────────────
+
+✅ Performance Optimization
+
+     - Explain Query Execution Plan (explain() method)
+     - Profiling and Monitoring (db.setProfilingLevel())
+     - Best Practices for Performance Tuning
+
+✅ MongoDB with Node.js (For Full-Stack Developer Roles)
+
+     - Connecting MongoDB with Node.js (mongodb package, mongoose)
+     - Mongoose Schema & Models
+     - Middleware & Hooks in Mongoose
+     - Virtuals, Methods, and Static Functions in Mongoose
+
+✅ Advanced Aggregation (Real-World Use Cases)
+
+     - $facet, $bucket, $out, $merge
+     - Data Transformation using Aggregation
+
+✅ MongoDB with Indexing Strategy
+
+     - Understanding Compound Indexes
+     - Partial Indexes & Sparse Indexes
+     - TTL (Time-To-Live) Indexes for Expiring Data
+
+✅ Event-Driven MongoDB (Change Streams)
+
+     - Real-Time Data Streaming with Change Streams
+     - Using Change Streams with Node.js
+
+✅ MongoDB Cloud & DevOps
+
+     - MongoDB Atlas (Cloud-Based MongoDB)
+     - Setting up MongoDB in Docker Containers
+     - Deploying MongoDB on AWS/GCP
+
+✅ Case Study & Problem-Solving with MongoDB
+
+     - Optimizing a Slow Query
+     - Designing a Scalable Database for a Social Media App
+     - Migrating from SQL to MongoDB
+
+📌 4. MongoDB Interview Preparation
+────────────────────────────────────
+
+✅ Common MongoDB Interview Questions
+
+     - Basic Questions (CRUD, Indexing, Schema Design)
+     - Advanced Questions (Sharding, Replication, Transactions, Aggregation)
+     - Scenario-Based Questions (How to optimize queries, How to handle big data, etc.)
+
+✅ Hands-on Practice
+
+     - Solve problems on LeetCode, HackerRank, and GeeksforGeeks
+     - Build a real-world project using Node.js + MongoDB
+     - Design Database Schema for an E-commerce App, Blog System, or Social Media Platform
+
+✅ Mock Interviews & System Design Discussions
+
+     - Practice with friends or peers
+     - Discuss system design challenges
+     - Review past interview experiences from Glassdoor, LinkedIn, GitHub discussions
+
+📌 5. MongoDB Project Ideas (For Resume & Interview Edge)
+─────────────────────────────────────────────────────────
+
+     1️⃣ E-commerce Database System (Products, Users, Orders, Transactions)
+     2️⃣ Real-Time Chat Application (MongoDB + WebSockets)
+     3️⃣ Task Management System (With Aggregation, Indexing, and Authentication)
+     4️⃣ URL Shortener (TTL Indexing for Expired Links)
+     5️⃣ Social Media App (Followers, Posts, Comments, Likes)
+
+🔹 Final Tips to Crack MongoDB Interviews:
+
+     ✔ Master Aggregation & Indexing – Most interview questions focus on optimizing queries.
+     ✔ Learn Schema Design Best Practices – Know when to embed vs. reference data.
+     ✔ Understand Transactions & Replication – For high-scale applications.
+     ✔ Hands-on Practice – Theory alone won’t help; build projects and optimize queries.
+     ✔ Be Confident in Answering Scenario-Based Questions – Think like a database architect.

@@ -1,0 +1,45 @@
+[
+    {
+        "_id": "607f1f77bcf86cd799439021",
+        "userId": "507f1f77bcf86cd799439011",
+        "products": [
+            {
+                "productId": "607f1f77bcf86cd799439031",
+                "quantity": 1
+            },
+            {
+                "productId": "607f1f77bcf86cd799439033",
+                "quantity": 2
+            }
+        ],
+        "totalAmount": 1500,
+        "status": "completed",
+        "orderDate": "2023-10-01T10:00:00Z"
+    },
+    {
+        "_id": "607f1f77bcf86cd799439022",
+        "userId": "507f1f77bcf86cd799439011",
+        "products": [
+            {
+                "productId": "607f1f77bcf86cd799439032",
+                "quantity": 1
+            }
+        ],
+        "totalAmount": 800,
+        "status": "pending",
+        "orderDate": "2023-10-02T12:00:00Z"
+    },
+    {
+        "_id": "607f1f77bcf86cd799439023",
+        "userId": "507f1f77bcf86cd799439012",
+        "products": [
+            {
+                "productId": "607f1f77bcf86cd799439033",
+                "quantity": 1
+            }
+        ],
+        "totalAmount": 150,
+        "status": "completed",
+        "orderDate": "2023-10-03T14:00:00Z"
+    }
+]
